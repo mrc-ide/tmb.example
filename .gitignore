@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+*~
+inst/doc
+doc
+Meta
+docs
+package-setup.R
+*.tar.gz
+.~lock*

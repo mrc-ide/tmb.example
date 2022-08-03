@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+
+TAG=mrcide/tmb.example:demo
+
+docker build --pull \
+       -t $TAG \
+       -f docker/Dockerfile \
+       .

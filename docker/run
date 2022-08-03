@@ -1,0 +1,5 @@
+set -e
+
+TAG=mrcide/tmb.example:demo
+
+docker run --rm $TAG

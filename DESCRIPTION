@@ -1,0 +1,14 @@
+Package: tmb.example
+Title: Minimal example of running TMB model
+Version: 0.0.0.9000
+Authors@R: 
+    person("Robert", "Ashton", , "r.ashton@imperial.ac.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: TMB, RcppEigen
+LinkingTo: TMB, RcppEigen
