@@ -1,6 +1,6 @@
 # tmb.example
 
-R package containing [example TMB model](https://kaskr.github.io/adcomp/Introduction.html#Examples) as part of a package which can be run inside a docker container
+R package which runs [example TMB model](https://github.com/kaskr/adcomp/blob/master/tmb_examples/ar1_4D.cpp) using runSumbolicAnalysis as part of a package which can be run inside a docker container
 
 ## docker
 
@@ -16,4 +16,4 @@ Run it
 ./docker/run
 ```
 
-This should print output from `TMB::sdreport()` of the output from `TMB::MakeADFun()`
+This should print output from `TMB::sdreport()`.
